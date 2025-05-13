@@ -12,7 +12,7 @@ const projects = [
     {
         id: 2, 
         title: "Gossip LLM: Multiagent RL Research", 
-        description: "Built a fault-tolerant distributed file system in C++ with client-server architecture using RPC. Implemented consistency checks, version control, and concurrent access support to simulate realistic file operations at scale.", 
+        description: "Research project exploring Reinforcement Learning + Game Theory. Co-developed a framework where agents share stateful communication (gossip) to improve cooperation in stochastic games.", 
         image: "/projects/placeholder-img.jpg", 
         tags: ["Python/Numpy", "Reinforcement Learning", "Game Theory"], 
         githubURL: "#"
@@ -20,7 +20,7 @@ const projects = [
     {
         id: 3, 
         title: "FilmFolios: Full Stack Movie Platform", 
-        description: "Built a fault-tolerant distributed file system in C++ with client-server architecture using RPC. Implemented consistency checks, version control, and concurrent access support to simulate realistic file operations at scale.", 
+        description: "Inspired by Letterboxd, FilmFolios lets users catalog, review, and discover movies. Built with React, Flask, and MySQL, featuring user authentication, advanced search, and personalized profiles.", 
         image: "/projects/placeholder-img.jpg", 
         tags: ["React", "Typescript", "MySQL", "Python", "Flask", "Docker"], 
         githubURL: "#"
@@ -28,7 +28,7 @@ const projects = [
     {
         id: 4, 
         title: "Hat Guessing Game: Math Research Paper", 
-        description: "Built a fault-tolerant distributed file system in C++ with client-server architecture using RPC. Implemented consistency checks, version control, and concurrent access support to simulate realistic file operations at scale.", 
+        description: "Engaged in discussions and analyzed research papers based on variations of this puzzle, solving the open-ended problem of calculating hat guessing number for a special class of graphs", 
         image: "/projects/placeholder-img.jpg", 
         tags: ["Research", "Discrete Math", "Problem Solving"], 
         paperURL: "#"
@@ -69,17 +69,16 @@ export const ProjectsSection = () => {
                             </h4>
                             <p className="text-muted-foreground text-sm mb-4">{project.description}
                             </p>
-                            <div className="flex justify-between items-center">
+                            {/* <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
                                     <a href={project.githubURL} 
                                     target="_blank"
                                     className="text-foreground/80 hover:text-primary transition-colors duration-300"><ExternalLink size={20}></ExternalLink></a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 ))}
-
             </div>
             {/* Github Profile Link */}
             <div className="text-center mt-12">
