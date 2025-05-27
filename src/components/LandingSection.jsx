@@ -8,8 +8,11 @@ export const LandingSection = () => {
                     <span className="text-primary opacity-0 animate-fade-in-delay-1">{" "}Shriya</span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">{" "}Kaistha</span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere debitis cum recusandae ipsa voluptatibus, voluptates cupiditate quod, quae qui maiores ad dignissimos quisquam modi, beatae soluta. Optio, itaque sed.
+                 <i className="text-primary/60 text-md md:text-lg">“A quote I live by: Shake things up. Use that big brain of yours to think your way out. Look for a new angle.”
+— Takeshi Hamada, Big Hero 6</i>
+                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">Software engineer, research nerd, and part-time dog enthusiast 🐶 on a quest to explore the many creatice ways tech can be used to make a difference.
                 </p>
+
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#Projects" className="cosmic-button">View my Side Quests</a>
                 </div>

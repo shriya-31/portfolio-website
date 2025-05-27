@@ -8,7 +8,7 @@ const navItems = [
 {name: "About", href: "#about"},
 {name: "Skills", href: "#skills"}, //can it be replace with expereince sections? 
 {name: "Projects", href: "#projects"}, 
-{name: "Contact", href: "#contact"}
+// {name: "Contact", href: "#contact"}
 ]
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false); 
